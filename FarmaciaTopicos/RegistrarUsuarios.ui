@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>453</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>140</y>
+     <width>281</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <widget class="QLabel" name="lbNombreRegister">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Nombre</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLineEdit" name="leApellidosRegister">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Apellido</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLineEdit" name="leContraRegister">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Contraseña</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="lbContraRegister_2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>ID</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLineEdit" name="identi">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Identificador personal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="lbUsuarioRegister">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Usuario</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lbApellidoRegister">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Apellidos</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QPushButton" name="pbRegistrarse">
+      <property name="styleSheet">
+       <string notr="true">border-color: rgb(170, 0, 255);
+font: 75 14pt &quot;Arial&quot;;
+background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+</string>
+      </property>
+      <property name="text">
+       <string>Registrarse</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="leUsuarioRegister">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Usuario</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="lbContraRegister">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Contraseña</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLineEdit" name="leNombreRegister">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Nombre</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="et_logo">
+   <property name="geometry">
+    <rect>
+     <x>126</x>
+     <y>40</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
