@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="prefijoNuevo">
+    <file>IconoFarmacia.jpg</file>
+  </qresource>
+</RCC>
